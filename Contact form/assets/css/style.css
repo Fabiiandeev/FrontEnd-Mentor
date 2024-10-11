@@ -1,0 +1,177 @@
+body{
+  font-size: 16px;
+  font-family: karla;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:hsl(148, 38%, 91%) ;
+  padding: 30px;
+  
+}
+
+div{
+  text-align: center;
+  background-color:hsl(0, 0%, 100%) ;
+  border-radius: 12px;
+  display: inline-block;
+  top: auto;
+  padding: 20px;
+  margin-right: 20px;
+ 
+  
+}
+
+.container-contact h2{
+  text-align:justify;
+  padding: 10px
+}
+
+.first-name label{
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+  display: block;
+  max-width: 100%;
+}
+
+.first-name input{
+  
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+.first-name input:hover{
+  cursor: pointer;
+}
+
+.last-name label{
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.last-name input{
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  
+}
+
+.last-name input:hover{
+  cursor: pointer;
+}
+
+.container-email{
+  text-align: left;
+  display: block;
+  text-align: center;
+}
+
+.container-email label{
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  align-items: center;
+  width: 50%;
+}
+
+.container-email input{
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  
+  
+}
+
+.container-email input:hover{
+  cursor: pointer;
+}
+
+.query-type{
+  display: flex;
+  text-align: left;
+}
+
+
+.checkbox-container{
+  display: flex;
+  float: left;
+  margin-left: 20px;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 10px;
+  width: 40%;
+ 
+
+
+  
+}
+.checkbox-container-2{ 
+  align-items: center;
+  display: flex;
+ padding: 10px;
+ margin-left: 20px;
+ margin-right: 20px;
+ border: 2px solid ;
+ border-radius: 4px;
+ padding: 10px;
+ width: 40%;
+ 
+}
+
+.msg-container{
+  text-align: left;
+  display: block;
+  margin-right: 20px;
+}
+.msg-container label{
+  margin-bottom: 5px;
+  display: flex;
+  max-width: 100%;
+}
+
+.msg-container input{
+  padding-top: 0;
+  margin-top: 0;
+  width: 92%;
+  border-radius: 4px;
+  padding: 30px;
+
+
+}
+
+.submit{
+  align-items: center;
+  text-align: center;
+  
+
+}
+
+.submit input{
+  text-align: left;
+  float: left;
+
+  
+}
+
+.submit span{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.submit button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%vh;
+  color: #fff;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 4px;
+  background-color:hsl(169, 82%, 27%) ;
+  padding: 20px 20px 20px;
+  margin-bottom: 5px;
+  
+}
